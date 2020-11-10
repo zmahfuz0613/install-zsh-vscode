@@ -1,3 +1,55 @@
+# What is the Terminal?
+
+### Let's open it:
+
+
+- <kbd>⌘</kbd> + <kbd>Space</kbd> (Command + spacebar)
+- "Terminal"
+- Enter
+
+The terminal is a tool developers use to execute instructions to a computer. It's the developer's best friend! Through the terminal one can navigate through files and folders with speed. We can write scripts to automate common tasks and run them in the terminal.
+
+# Modifier keys? 
+![Mac Keyboard modifier keys](https://cdn.osxdaily.com/wp-content/uploads/2018/01/apple-keyboard-modifier-keys.jpg)
+
+MacOS Shortcut Keys: https://support.apple.com/en-us/HT201236
+
+
+
+| Command   | Explanation                                                                     |
+|-----------|---------------------------------------------------------------------------------|
+| `pwd`     | shows in which directory you're currently in                                    |
+| `mkdir`   | creates a new directory                                                         |
+| `ls`      | lists the contents of the current directory you're in                           |
+| `cd`      | moves you to the specified directory*                                           |
+| `cd ..`   | goes back one directory                                                         |
+| `cd ~`    | takes you to your home directory                                                |
+| `touch`   | creates an empty file                                                           |
+| `cp`      | copies an existing specified file and pastes it with whatever name you give it  |
+| `mv old/path new/path`      | moves an existing specified file to a specified destination   |
+| `mv path/filename path/newname` | if paths are the same with a differeent file name, the file's name will be changed                   |
+| `rm`      | deletes the specified file                                                      |
+| `rm -r`   | deletes the specified directory and all of its contents                         |
+| `man`     | open a help manual for a particular command                                     |
+| `history` | shows the history of the commands you've typed in your terminal                 |
+| `ctrl + r`| search through history of your commands (press enter to execute it)             |
+| `ctrl + u`| delete command line                                                             |
+| `df -h`   | displays free disk space                                                        |
+
+
+*Note: If you are using Zsh, you can leave out the `cd` entirely; the directly name itself will move you into it.  
+
+### Examples
+
+Copy command - `cp`
+
+`cp hello.txt bye.txt`
+
+
+Move command - `mv`
+
+moves an existing specified file to a specified destination
+
 # install-zsh-vscode
 
 How to install oh-my-zsh and VS-code
