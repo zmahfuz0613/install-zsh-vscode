@@ -184,6 +184,30 @@ Type `Command + comma` and click this icon ![](settings.png) on the top right to
 
 Copy and paste the options from the following gist and save:
 
+{
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+    "rules": {
+      "no-unused-vars": "off",
+      "arrow-body-style": "off",
+      "no-debugger": "off",
+      "eol-last": "off",
+      "react/jsx-one-expression-per-line": "off"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "workbench.activityBar.visible": true,
+  "explorer.openEditors.visible": 0,
+  "workbench.statusBar.feedback.visible": false,
+  "terminal.integrated.rendererType": "dom",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+}
+
 
 ### iTerm 2
 
